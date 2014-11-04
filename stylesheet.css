@@ -5,15 +5,20 @@ h1 {text-align: center;
 header li {display: inline-block;
 		   padding: .5rem 1 rem;}
 
-.topnav {background-color: #8d5bb4;}
+.topnav {
+	background-color: #8d5bb4;
+}
 
-.topnav ul {padding: 0;
-			margin: 0;}
+.topnav ul {
+	padding: 0;
+	margin: 0;
+}
 
 .topnav li {display: inline-block;
 			width: 10%;
 			border-left: 4px solid #74409b;
-			text-align: center;}
+			text-align: center;
+			padding: 5px;} 
 
 .sidenav {background-color: #c4aed6;
 		  width: 160px;
@@ -35,6 +40,11 @@ section {background-color: #E1E4E9;
 		padding: 4rem 12rem;}
 
 footer {text-align: center;}
+
+.footerimage {
+		width: 40px;
+		height: 40px ;
+}
 
 /**
  * For modern browsers
