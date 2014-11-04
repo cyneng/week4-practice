@@ -18,12 +18,15 @@ header li {display: inline-block;
 			width: 10%;
 			border-left: 4px solid #74409b;
 			text-align: center;
-			padding: 5px;} 
+			padding: 10px;} 
 
 .sidenav {background-color: #c4aed6;
-		  width: 160px;
+		  padding-top: 20px;
+		  padding-bottom: 155px;
+		  width: 220px;
 		  float: left;
-		  font-size: 1.0em;}
+		  font-size: 1.0em;
+		  text-align: left;}
 
 .sidenav li {padding: 10px;}
 
@@ -39,12 +42,16 @@ section {background-color: #E1E4E9;
 		text-align: center;
 		padding: 4rem 12rem;}
 
-footer {text-align: center;}
+footer {text-align: center;
+		padding-top: 20px;}
+		
 
 .footerimage {
-		width: 40px;
-		height: 40px ;
-}
+		padding: 20px;
+		max-width: 30px;
+		max-height: 30px;
+	}
+
 
 /**
  * For modern browsers
