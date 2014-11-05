@@ -1,6 +1,7 @@
 h1 {text-align: center;
 	color: #8d5bb4;
-	font-family: Arial, Gadget, sans-serif;}
+	font-family: Arial, Gadget, sans-serif;
+	font-size: 45px;}
 
 header li {display: inline-block;
 		   padding: .5rem 1 rem;}
@@ -21,12 +22,17 @@ header li {display: inline-block;
 			padding: 10px;} 
 
 .sidenav {background-color: #c4aed6;
-		  padding-top: 20px;
-		  padding-bottom: 155px;
+		  height: 550px;
 		  width: 220px;
 		  float: left;
 		  font-size: 1.0em;
 		  text-align: left;}
+
+.sidenav ul {width: 100px;
+		text-align: center;
+		padding-top: 60px;
+		margin: 0 auto;
+		-webkit-padding-start: 0;}
 
 .sidenav li {padding: 10px;}
 
@@ -39,8 +45,18 @@ a {text-decoration: none;
 	color: #ffffff;}
 
 section {background-color: #E1E4E9;
-		text-align: center;
-		padding: 4rem 12rem;}
+		text-align: center;}
+
+.divintro {
+		width:500px;
+		margin: 0 auto;
+		padding: 75px 0;}
+
+.divintro img {
+		width: 100%;}
+
+
+
 
 footer {text-align: center;
 		padding-top: 20px;}
@@ -49,8 +65,7 @@ footer {text-align: center;
 .footerimage {
 		padding: 20px;
 		max-width: 30px;
-		max-height: 30px;
-	}
+		max-height: 30px;}
 
 
 /**
